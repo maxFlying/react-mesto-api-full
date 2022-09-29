@@ -1,0 +1,15 @@
+.photoalbum__like {
+    background-image: url(../../../images/photolbum/like_button.svg);
+    background-size: contain;
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    min-width: 22px;
+    height: 19px;
+}
+
+.photoalbum__like:hover {
+    cursor: pointer;
+    opacity: 50%;
+}

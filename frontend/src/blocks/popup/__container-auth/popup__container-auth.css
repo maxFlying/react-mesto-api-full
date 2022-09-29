@@ -1,0 +1,5 @@
+.popup__container-auth {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

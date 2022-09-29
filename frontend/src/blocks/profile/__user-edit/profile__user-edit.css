@@ -1,0 +1,22 @@
+.profile__user-edit {
+    grid-area: edit;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-image: url(../../../images/profile/editButton.svg);
+    background-size: contain;
+    padding: 0;
+}
+
+.profile__user-edit:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
+
+@media screen and (max-width: 370px) {
+    .profile__user-edit {
+        width: 18px;
+        height: 18px;
+    }
+}

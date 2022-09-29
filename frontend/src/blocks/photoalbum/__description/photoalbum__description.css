@@ -1,0 +1,10 @@
+.photoalbum__description {
+    z-index: 2;
+    display: flex;
+    padding: 25px 15px 31px 21px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../../images/photolbum/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

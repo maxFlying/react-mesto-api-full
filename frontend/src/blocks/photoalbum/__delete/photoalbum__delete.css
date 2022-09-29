@@ -1,0 +1,19 @@
+.photoalbum__delete {
+    border: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../../images/photolbum/delete.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 4;
+}
+
+.photoalbum__delete:hover {
+    cursor: pointer;
+    opacity: 60%;
+}

@@ -1,0 +1,29 @@
+.photogrid__list {
+    margin: 50px 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 20px 17px;
+    max-width: 880px;
+    grid-template-columns: repeat(3, 282px);
+    grid-auto-rows: 361px;
+}
+
+@media screen and (max-width: 900px) {
+    .photogrid__list {
+        grid-template-columns: repeat(2, 282px);
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .photogrid__list {
+        grid-template-columns: repeat(1, 282px);
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .photogrid__list {
+        margin: 36px 19px 0;
+    }
+}

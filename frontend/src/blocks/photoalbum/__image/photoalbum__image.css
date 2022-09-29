@@ -1,0 +1,11 @@
+.photoalbum__image {
+    max-width: 100%;
+    min-height: 282px;
+    z-index: 1;
+    overflow: auto;
+    object-fit: cover;
+}
+
+.photoalbum__image:hover {
+    cursor: pointer;
+}

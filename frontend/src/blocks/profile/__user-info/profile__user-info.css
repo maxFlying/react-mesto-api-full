@@ -1,0 +1,18 @@
+.profile__user-info {
+    grid-area: info;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 370px) {
+    .profile__user-info {
+        font-size: 14px;
+        line-height: 1.21;
+    }
+}
