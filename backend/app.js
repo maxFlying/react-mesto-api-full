@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 
-const { PORT = 5500 } = process.env;
+const { PORT = 3000 } = process.env;
 const app = express();
 const { celebrate, Joi, errors } = require('celebrate');
 const cors = require('cors');
@@ -24,7 +24,7 @@ app.use(cors({
     'https://maxflying.students.nomoredomains.sbs',
     'http://api.maxflying.students.nomoredomains.sbs',
     'http://api.maxflying.students.nomoredomains.sbs',
-    'http://localhost:5500',
+    'http://localhost:3000',
     'http://localhost:3001',
   ],
   credentials: true,
