@@ -7,10 +7,10 @@
   
 # Cсылки
 
-Repository: https://github.com/maxFlying/react-mesto-api-full
+Repository https://github.com/maxFlying/react-mesto-api-full
 
-Frontend: http://maxflying.students.nomoredomains.sbs https://maxflying.students.nomoredomains.sbs
+Frontend http://maxflying.students.nomoredomains.sbs https://maxflying.students.nomoredomains.sbs
 
-Backend: http://api.maxflying.students.nomoredomains.sbs https://api.maxflying.students.nomoredomains.sbs
+Backend http://api.maxflying.students.nomoredomains.sbs https://api.maxflying.students.nomoredomains.sbs
 
-IP: 84.201.128.206
+IP 84.201.128.206
