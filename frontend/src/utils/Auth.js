@@ -44,7 +44,7 @@ class Auth {
 }
 
 const auth = new Auth({
-  url: 'http://localhost:3000',
+  url: 'http://api.maxflying.students.nomoredomains.sbs',
   headers: {
     'Content-Type': 'application/json',
   },
