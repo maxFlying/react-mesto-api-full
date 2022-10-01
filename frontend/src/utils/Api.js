@@ -105,7 +105,7 @@ class Api {
 }
 
 const api = new Api({
-  url: 'http://api.maxflying.students.nomoredomains.sbs',
+  url: 'https://api.maxflying.students.nomoredomains.sbs',
   headers: {
     'Content-Type': 'application/json'
 }

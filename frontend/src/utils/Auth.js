@@ -44,7 +44,7 @@ class Auth {
 }
 
 const auth = new Auth({
-  url: 'http://api.maxflying.students.nomoredomains.sbs',
+  url: 'https://api.maxflying.students.nomoredomains.sbs',
   headers: {
     'Content-Type': 'application/json',
   },
