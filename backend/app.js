@@ -61,13 +61,13 @@ app.use('/', require('./routes/users'));
 
 app.use('/', require('./routes/cards'));
 
-app.use(errorLogger);
-
-app.use(errors());
-
 app.use('*', (req, res, next) => {
   next(new NotFoundError('Запрашиваемый путь не существует.'));
 });
+
+app.use(errorLogger);
+
+app.use(errors());
 
 app.use((err, req, res, next) => {
   const { statusCode = 500, message } = err;
