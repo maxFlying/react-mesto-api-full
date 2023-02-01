@@ -34,7 +34,6 @@ function Register(props) {
         name="email"
         type="email"
         className="popup__input popup__input_type_auth"
-        // name="input_email"
         placeholder="Email"
         required
         minLength="2"
